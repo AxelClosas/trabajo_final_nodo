@@ -173,6 +173,7 @@ body {
 .footer__element {
   text-align: left;
 }
+
 .footer__link {
   text-decoration: none;
   color: var(--naranja);
@@ -192,7 +193,11 @@ body {
 .footer__creditos {
   margin-top: 2rem;
 }
-
+.footer__elementContainer {
+  display: flex;
+  gap: .5rem;
+  
+}
 @media (width >= 768px) {
   .header__list {
     display: flex;
@@ -230,10 +235,7 @@ body {
     justify-content: center;
     align-items: flex-start;
   }
-  .footer__elementContainer {
-    display: flex;
-    gap: .5rem;
-  }
+
   .footer__img {
     max-width: 2.5rem;
   }
